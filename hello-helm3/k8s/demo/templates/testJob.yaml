@@ -9,7 +9,7 @@ spec:
         - name: title
           image: python:latest
           command: [ "python", "-c" ]
-          args: [ "print('Hello from the Kubernetes job')" ]
+          args: [ "print('Hello frавыфom the Kubernetes job')" ]
       restartPolicy: Never
   backoffLimit: 4
   
